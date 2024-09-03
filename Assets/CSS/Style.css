@@ -11,7 +11,7 @@
 /* Header CSS */
 .header {
     background-image: url(https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    height: 400px;
+    height: 500px;
     background-position: center;
     padding-top:1rem;
     display: flex;
@@ -38,14 +38,132 @@
 .nav-link{
    margin-top: 0.6rem;
 }
+
 #btn{
     text-decoration: none;
     color: #000;
     text-align: center;
 }
+
 .bbtn{
     border-radius: 0.5rem;
     border: none;
     padding: 0.5rem 0.9rem;
     color: #fff;
 }
+
+.nav-item:hover{
+    color: #a7a1a1d7;
+}
+
+.bbtn:hover{
+ padding: 0.7rem  0.9rem;
+}
+
+/* Inner Image Content CSS */
+.inner-content{
+    position:absolute;
+    top: 20%;
+    left: 33%;
+    width: 40%;
+    color: #ffffff;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 5%;
+    padding-top: 1rem;
+}
+
+.search svg{
+    position: absolute;
+    left: 90%;
+}
+
+.inner-content input{
+    height: 3rem;
+    width: 90%;
+    border: none;
+    outline: none;
+    padding-left: 6rem;
+}
+
+#cars{
+    position: absolute;
+    right: 81%;
+    border-color: #9b9696b4;
+    height: 50%;
+    color: #535151ee;
+}
+/* End of Inner Image Content */
+
+/* Navigation Bar */
+ .Navigation{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    column-gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+    color: #ffffffee;
+    margin-top: 2rem;
+}
+
+.navigation-link{
+    color: #535151ee;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.Navigation li:first-child {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-size: 24px;
+}
+
+.navigation-link:hover{
+color: #000;
+}
+
+
+.subcat {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    column-gap: 60%;
+}
+
+
+#Trending{
+   padding: 0.8rem;
+}
+/* End of Navigation Bar */
+
+/* CSS for Content Section */
+
+.gallery {
+    display: flex; 
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:center;
+} 
+
+.items { 
+    height: 400px;
+    width: 300px;
+}
+.items img{
+    height: 100%;
+    width: 100%;
+} 
+
+h3{
+    font-size: 20px;
+}
+/* End of Content Section */
